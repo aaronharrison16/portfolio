@@ -2,7 +2,7 @@ class PortfoliosController < ApplicationController
   def index
     @portfolio_items = Portfolio.all
   end
-#asdfasd
+
   def new
     @portfolio_item = Portfolio.new
   end
