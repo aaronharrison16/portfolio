@@ -1,4 +1,5 @@
 @import "bootstrap";
+@import "font-awesome";
 
 /*
  * Globals
@@ -172,7 +173,11 @@ h6, .h6 {
  * Custom Styles
  */
 
- .btn-primary {
+.btn-primary {
   margin-top: 7px;
   margin-bottom: 7px;
- }
+}
+
+.social-links li {
+  font-size: 2.5em;  
+}
