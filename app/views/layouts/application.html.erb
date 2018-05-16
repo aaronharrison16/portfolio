@@ -6,6 +6,7 @@
     
     <title><%= @page_title %></title>
     <%= csrf_meta_tags %>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet">
 
 
     <meta name="keywords" content="<%= @seo_keywords %>" />
@@ -16,6 +17,8 @@
 
   <body class="text-center">
     <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+
+      <div id="background"></div>
         
       <%= render "shared/application_nav" %>
 
