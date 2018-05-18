@@ -1,4 +1,6 @@
 @import "bootstrap";
+@import "gritter";
+
 
 /*
  * Globals
@@ -169,6 +171,6 @@ body {
   color: white;
 }
 
-.body {
-  
+.gritter-item {
+    font-family: 'Merriweather Sans', sans-serif;
 }

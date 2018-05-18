@@ -1,5 +1,6 @@
 @import "bootstrap";
 @import "jquery-ui";
+@import "gritter";
 
 :root {
   --jumbotron-padding-y: 3rem;
@@ -45,4 +46,8 @@ footer p {
 
 .portfolio-container {
   padding: 30px;
+}
+
+.gritter-item {
+    font-family: 'Merriweather Sans', sans-serif;
 }
