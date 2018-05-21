@@ -165,6 +165,9 @@ h6, .h6 {
   text-align: center;
   background-color: #f9f9f9;
   border-top: .05rem solid #e5e5e5;
+  width: 100%;
+  margin-top: 25px;
+
 }
 .blog-footer p:last-child {
   margin-bottom: 0;
@@ -184,6 +187,16 @@ h6, .h6 {
   font-size: 2.5em;  
 }
 
-.gritter-item {
-    font-family: 'Merriweather Sans', sans-serif;
+.comment-card > .card {
+  margin-top: 15px;
+  padding: 25px;
+}
+
+.comment-atribution {
+  font-size: .8em;
+  font-style: italic;
+}
+
+.comment-name {
+  font-weight: 800;
 }
