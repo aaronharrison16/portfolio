@@ -184,15 +184,19 @@ body {
   padding: 30px;
 }
 
-.about-me {
+.app-card-container {
   color: black;
 
 }
 
-.about-me > .card {
+.app-card-container > .card {
   padding: 40px;
 }
 
 #about-me-heading {
   text-align: left;
+}
+
+.contact-container a {
+  color: blue;
 }
