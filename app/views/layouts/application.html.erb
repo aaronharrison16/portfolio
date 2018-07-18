@@ -8,7 +8,6 @@
     <%= csrf_meta_tags %>
     <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans|Montserrat" rel="stylesheet">
 
-
     <meta name="keywords" content="<%= @seo_keywords %>" />
 
     <%= favicon_link_tag 'favicon/favicon.ico' %>
@@ -18,17 +17,15 @@
   </head>
 
   <body class="text-center">
-    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
 
       <div id="background"></div>
-        
+       
       <%= render "shared/application_nav" %>
 
       <%= yield %>
 
       <%= render "shared/application_footer" %>
-
-      <%= alerts %>
 
     </div>
   </body>
