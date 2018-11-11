@@ -232,3 +232,9 @@ h6, .h6 {
   color: #42fffd;
   text-decoration: none;
 }
+
+@media (max-width: 400px) {
+ .masthead-brand {
+  font-size: 1.2em;
+ }
+}
