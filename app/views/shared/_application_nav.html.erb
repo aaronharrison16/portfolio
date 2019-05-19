@@ -1,18 +1,15 @@
-<header class="container mb-auto">
-  <div class="collapse" id="navbarHeader">
-    <div>
-      <ul class="navbar-nav justify-content-center nav-masthead">
-        <%= nav_helper 'nav-link', 'li'%>
-        <%= login_helper 'nav-link' %>  
-      </ul>
+<div class="container mb-auto">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <%= link_to "Aaron Harrison", root_path, class: 'navbar-brand' %>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExample05">
+      <div class="navbar-nav ml-auto">
+          <%= nav_helper 'nav-link', 'li'%>
+          <%= login_helper 'nav-link' %>
+      </div>
     </div>
-  </div>
-  <div class="navbar navbar-dark box-shadow">
-    <div class="container d-flex justify-content-between">
-      <h3 class="masthead-brand">Aaron Harrison</h3>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </div>
-  </div>
-</header>
+  </nav>
+</div>
