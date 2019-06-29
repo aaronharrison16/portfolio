@@ -18,10 +18,10 @@
       <h3>Technologies Used:</h3>
 
       <% @portfolio_item.technologies.each do |t| %>
-      <p><%= t.name %></p>
+        <p><%= t.name %></p>
       <% end %>
 
-      <a href="<%=@portfolio_item.github_url%>">Link to github</a>
+      <%= link_to "Github Repo", @portfolio_item.github_url, target: :_blank%>
 
       <div>
         <% if logged_in?(:site_admin) %>
