@@ -19,7 +19,7 @@
             <li><a target="_blank" href= "<%=@portfolio_item.github_url%>" id="github"><%= fa_icon "github" %></a></li>
           <% end %>
           <% if @portfolio_item.page_url != nil %>
-            <li><%= link_to "View App", @portfolio_item.page_url%></li>
+            <li><%= link_to "View App", @portfolio_item.page_url, target:"_blank"%></li>
           <% end %>
         </ul>
       </div>
